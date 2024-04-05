@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600;700&family=Outfit&family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400&family=Outfit&family=Young+Serif&display=swap");
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+section {
+  background-color: white;
+  min-width: 250px;
+}
+
+.header-imagen {
+  width: 100%;
+}
+
+.main-container {
+  margin: 20px 25px;
+}
+
+.container-preparation {
+  padding: 20px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.container-preparation__lista {
+  padding: 20px;
+}
+
+.separacion {
+  padding-left: 30px;
+  padding-bottom: 5px;
+}
+
+.titleh1 {
+  font-family: "Young Serif", serif;
+}
+
+.titleh2 {
+  color: hsl(332, 51%, 32%);
+  font-family: "Young Serif", serif;
+}
+
+.container-ingredientes {
+  padding: 20px 20px;
+}
+
+.container-ingredientes__lista {
+  padding: 20px;
+}
+
+.container-instrucciones {
+  padding: 20px;
+}
+
+.container-instrucciones__lista {
+  padding: 20px;
+}
+
+.container-nutrition__lista {
+  padding-left: 20px;
+}
+
+.filatabla {
+  border-color: hsl(24, 5%, 18%);
+  border-top: 1px solid hsl(24, 5%, 18%);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px 30px; /* Ajusta el espaciado inferior para separar las celdas */
+}
+
+.table-row {
+  border-bottom: 1px solid hsl(30, 18%, 87%);
+  border-width: 100%;
+}
+
+.negrita {
+  font-weight: bold;
+}
+
+.bold-red {
+  font-weight: bold;
+  color: hsl(332, 51%, 32%);
+}
+
+.container-instrucciones__lista li::marker {
+  color: hsl(332, 51%, 32%); /* Cambiar el color de los números */
+  font-weight: bold;
+}
+
+.container-ingredientes__lista li::marker {
+  color: hsl(332, 51%, 32%); /* Cambiar el color de los números */
+  font-weight: bold;
+}
+
+.container-preparation__lista li::marker {
+  color: hsl(332, 51%, 32%); /* Cambiar el color de los números */
+  font-weight: bold;
+}
+
+@media screen and (min-width: 375px) {
+  .header-imagen {
+    border-radius: 10px; /* Aplicar borde redondeado a la imagen */
+  }
+  .section {
+    border-radius: 10px;
+    margin: 40px 20px;
+    max-width: 600px;
+  }
+  .main-container {
+    border-radius: 10px; /* Aplicar borde redondeado al contenedor principal */
+    background-color: hsl(0, 0%, 100%);
+  }
+  body {
+    background-color: pink;
+  }
+}
+@media screen and (min-width: 501px) {
+  .header-imagen {
+    border-radius: 10px; /* Aplicar borde redondeado a la imagen */
+  }
+  .section {
+    margin: 40px auto;
+    max-width: 600px;
+  }
+  .main-container {
+    border-radius: 10px; /* Aplicar borde redondeado al contenedor principal */
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+  }
+  body {
+    background-color: pink;
+    padding: 0 20px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
